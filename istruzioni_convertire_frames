@@ -1,0 +1,3 @@
+ffmpeg -i input.mpg '%04d.jpg'
+
+Chiaramente al posto di input.mpg si mette il nome del file video.

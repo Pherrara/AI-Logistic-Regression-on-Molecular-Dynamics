@@ -1,0 +1,7 @@
+gcc -o MDT.exe MDT.c -lm -lgsl -lgslcblas was used to compile it.
+
+The cutoff radius was chosen as 3.5.
+
+The first simulation was with rho 1.1 and T (both ones) as 1, expecting a solid!
+
+I've created 3 files. MDT.sh gdr.sh and traiettoria.sh, so I can edit those quickly with vim and run with bash example.sh 

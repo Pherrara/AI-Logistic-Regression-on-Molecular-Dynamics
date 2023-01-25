@@ -1,0 +1,13 @@
+gcc -o MDT.exe MDT.c -lm -lgsl -lgslcblas was used to compile it.
+
+The cutoff radius was chosen as 3.5.
+
+The first simulation was with rho 1.1 and T (both ones) as 1, expecting a solid!
+
+I've created 3 files. MDT.sh gdr.sh and traiettoria.sh, so I can edit those quickly with vim and run with bash example.sh 
+
+The simulations have been visualized on VMD, as VDW opaque with sphere size 0.1 and resolution 15.
+Movie are generated with default option MPEG-1 and the frames are keeped! as both rock and roll (xy lemniscate) (rotation) and trajectory (trajectory)
+Always remember to put (reset view before filming!
+)
+I'm thinking about making other simulations with the same parameters so I can feed different frames from different simulations into my neural network!

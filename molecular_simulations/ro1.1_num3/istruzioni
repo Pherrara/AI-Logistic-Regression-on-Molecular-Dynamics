@@ -1,0 +1,8 @@
+./MDT.exe -N 512 -rho 1.1 -dt 0.001 -rc 2.5 -ns 50000 -T0 1 -Tb 1 -nu 1 -seed 299792458 -fs 100 > output &
+
+
+./gdr.exe -fnf %i.xyz -for 20000,49900,100 -N 512 -rc 2.5 -dr 0.02 > gdrfile
+
+
+for i in {0..49900..100}.xyz ; do cat $i >> traiettoria.xyz; done
+
